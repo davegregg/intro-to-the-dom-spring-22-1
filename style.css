@@ -1,0 +1,48 @@
+body {
+    background-color: blanchedalmond;
+}
+
+body.dark {
+    background-color: rgb(62, 17, 0);
+}
+
+body h1 {
+    color: black;
+}
+
+body.dark h1 {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section {
+    color: white;
+    background-color: coral;
+    border: 0.5rem solid lightblue;
+    padding: 0.5rem;
+    text-shadow: 0px 0px 0.1rem white;
+}
+
+#maze {
+    margin-left: 2rem;
+}
+
+#maze > .row {
+    display: flex;
+    flex-direction: row;
+}
+
+#maze > .row > .cell {
+    height: 1rem;
+    width: 1rem;
+    outline: 1px solid black;
+}
+
+.wall {
+    background-color: black;
+}
